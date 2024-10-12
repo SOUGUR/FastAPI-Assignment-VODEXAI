@@ -1,7 +1,7 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 
 
-MONGO_DETAILS = "mongodb+srv://sourabhgurav23:Iamsourabh#123@cluster0.yab98.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DETAILS = "mongodb+srv://sourabhgurav23:Iamsourabh#123@cluster0.yab98.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&ssl=true"
 
 client = AsyncIOMotorClient(MONGO_DETAILS)
 database = client.fastapiassignment
